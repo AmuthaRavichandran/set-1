@@ -1,6 +1,6 @@
 num=int(raw_input())
 if num < 0:
-   print("Enter a positive number")
+   print("0")
 else:
    sum = 0
    # use while loop to iterate un till zero
