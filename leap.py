@@ -1,9 +1,11 @@
-a=int(input())
-if(a%400==0):
-    print ("leapyear")
-elif(a%4==0):
-    print ("leapyear")
-elif(a%100!=0):
-    print ("leapyear")
+year = int(input())
+if (year % 4) == 0:
+   if (year % 100) == 0:
+       if (year % 400) == 0:
+           print( (year),"is a leap year")
+       else:
+           print((year)," is not a leap year")
+   else:
+       print((year)," is a leap year")
 else:
-    print ("not leapyear")
+   print((year)," is not a leap year")
