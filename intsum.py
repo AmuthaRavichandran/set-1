@@ -1,2 +1,4 @@
-n=str(raw_input())
-print "the length of the string is:",len(n)
+n=int(raw_input())
+m=str(n)
+o=len(m)
+print o
