@@ -1,2 +1,2 @@
 n=str(raw_input())
-len(n)
+print "the length of the string is:",len(n)
