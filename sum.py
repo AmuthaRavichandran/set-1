@@ -1,5 +1,6 @@
-a=int(raw_input("enter the N value:"))
-sum=0
-for f in range(0,a+1):
-	sum = sum+f
-print(sum)
+a=int(raw_input())
+b=int(raw_input())
+c=[1,2,3,4,5]
+e=c[:b]
+d=sum(e)
+print d
