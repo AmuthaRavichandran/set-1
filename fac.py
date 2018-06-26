@@ -9,4 +9,4 @@ if num < 0:
 elif num == 0:
    print("The factorial of 0 is 1")
 else:
-   print("The factorial of",num,"is",recur_factorial(num))
+   print(recur_factorial(num))
